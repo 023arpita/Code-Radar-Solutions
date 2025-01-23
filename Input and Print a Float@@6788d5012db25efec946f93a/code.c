@@ -5,7 +5,7 @@ int main()
     printf("enter the value of x = ");
     scanf(" %.2f" , &x);
 
-    printf(" You entered = " , x);
+    printf(" x = " , x);
     return 0 ;
 
 }
