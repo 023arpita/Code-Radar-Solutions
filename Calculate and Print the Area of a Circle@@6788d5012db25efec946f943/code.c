@@ -2,9 +2,9 @@
 int main(){
     float radius,Area;
     scanf("%f",&radius);
-    printf("radius: %.2f",radius);
+    printf("radius: %.2f\n",radius);
     Area = (2*3.14*radius);
-    printf("Area: %.2f",Area);
+    printf("Area: %.2f\n",Area);
     return 0;
     
     }
