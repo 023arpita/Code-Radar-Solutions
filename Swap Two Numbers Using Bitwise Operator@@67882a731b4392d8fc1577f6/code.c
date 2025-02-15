@@ -6,8 +6,6 @@ int main() {
     printf("Two integers: ");
     scanf("%d %d", &a, &b);
 
-    printf(" a = %d and  b = %d\n", a, b);
-
 
     a = a ^ b;
     b = a ^ b;
