@@ -6,7 +6,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    printf("Two integers: a = %d, b = %d\n", a, b);
+    printf("Two integers: a = %d and  b = %d\n", a, b);
 
 
     a = a ^ b;
