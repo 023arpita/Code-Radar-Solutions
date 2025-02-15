@@ -3,7 +3,7 @@
 int main() {
     int a, b;
 
-    printf("Two integers: ");
+
     scanf("%d %d", &a, &b);
 
 
