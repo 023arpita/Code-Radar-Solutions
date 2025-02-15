@@ -6,10 +6,9 @@ int main(){
         printf("Leap year");
     } else if( year % 100 == 0){
         printf("Not a leap year\n");
-    }
-    else if ( year % 4 == 0 ){
+    }else if ( year % 4 == 0 ){
         printf("Leap year\n");
-    } else 
+    }else 
     printf ("Not a leap year\n");
     return  0 ;
 
