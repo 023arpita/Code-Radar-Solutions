@@ -2,9 +2,6 @@
 
 int main() {
     char ch;
-
-    // Input from user
-    printf("Enter a character: ");
     scanf("%c", &ch);
 
     if (ch >= 'A' && ch <= 'Z') {
