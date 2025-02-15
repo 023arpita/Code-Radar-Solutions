@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-    int year;
-    scanf("%d" , &year);
-    if(year % 4 == 0){
-        printf("Leap year");
+    int a;
+    scanf("%d",&a);
+    if(a % 4 == 0){
+        printf("Leap year\n");
     }else 
-    printf("Not a leap year");
+    printf("Not a leap year\n");
     return 0;
-    
+
 
 }
