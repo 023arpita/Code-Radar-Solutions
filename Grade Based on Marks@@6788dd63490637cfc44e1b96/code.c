@@ -8,21 +8,20 @@ int main() {
     if (marks >= 90 && marks <= 100) {
         printf("A\n");
     } 
-    else if (marks >= 80) {
+    else if (marks >= 80 && <90) {
         printf(" B\n");
     } 
-    else if (marks >= 70) {
+    else if (marks >= 70 && <80) {
         printf("C\n");
     } 
-    else if (marks >= 60) {
+    else if (marks >= 60 && <70) {
         printf("D\n");
     } 
-    else if (marks >= 50) {
-        printf("E\n");
-    } 
-    else (marks >= 0) {
+    else  (marks < 60) {
         printf("F\n");
     } 
+    
+    
 
     return 0;
 }
