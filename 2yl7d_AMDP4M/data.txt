@@ -1,0 +1,1 @@
+[{"index":49,"id":"67b1b41162f15ee14b188d83","title":"Output of arithmetic operation","correctAnswer":"1","selectedOption":"1","isCorrect":true,"type":"MCQ"}]
