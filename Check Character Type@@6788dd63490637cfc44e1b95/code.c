@@ -16,5 +16,4 @@
         printf("Special Character/n", ch);
     }
     return 0;
-
- }
+}
