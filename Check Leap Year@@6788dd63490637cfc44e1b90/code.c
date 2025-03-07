@@ -5,9 +5,6 @@ int main(){
     if(a%4==0){
         printf("Leap Year\n");
     }
-    else if(a%400==0){
-        printf("Leap Year\n");
-    }
     else 
     printf("Not a leap Year\n");
     return 0;
