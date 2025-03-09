@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    if(a^2==b){
+    if(a*a==b){
         printf("Yes");
     }else{
         printf("No");
