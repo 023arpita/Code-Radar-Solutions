@@ -7,21 +7,21 @@ int main() {
     scanf("%d %d", &num1, &num2);
     switch (operator) {
         case '+':
-            result = num1 + num2;
-            printf("%d\n", result);
+            result1 = num1 + num2;
+            printf("%d\n", result1);
             break;
         case '-':
-            result = num1 - num2;
-            printf("%d\n", result);
+            result2 = num1 - num2;
+            printf("%d\n", result2);
             break;
         case '*':
-            result = num1 * num2;
-            printf("%d\n", result);
+            result3 = num1 * num2;
+            printf("%d\n", result3);
             break;
         case '/':
             if (num2 != 0) {
-                result = num1 / num2;
-                printf("%d\n", result);
+                result4 = num1 / num2;
+                printf("%d\n", result4);
             } else {
                 printf("error\n");
             }
