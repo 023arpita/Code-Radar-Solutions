@@ -2,7 +2,7 @@
 
 int main() {
     char operator;
-    int num1, num2, result;
+    int num1, num2, result1,result2,result3,result4;
     scanf(" %c", &operator); 
     scanf("%d %d", &num1, &num2);
     switch (operator) {
