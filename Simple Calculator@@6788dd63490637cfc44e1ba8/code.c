@@ -4,7 +4,7 @@ int main(){
     char opr;
     scanf("%d %d %c",&num1,&num2,&opr);
 
-    switch(oper){
+    switch(opr){
         case'+':
         printf("%d" ,num1+num2);
         break;
