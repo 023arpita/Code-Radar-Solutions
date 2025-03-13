@@ -1,24 +1,31 @@
 #include <stdio.h>
-
 int main(){
-    int a,b;
-    char c;
-    scanf("%d%d %c",&a,&b,&c);
+    int num1,num2;
+    char opr;
+    scanf("%d %d %c",&num1,&num2,&opr);
 
-    if (c == '+'){
-        printf("%d",a+b);
-    }
-    else if(c=='-'){
-        printf("%d",a-b);
-    }
-    else if(c=='*'){
-        printf("%d",a*b);
-    }
-    else if(c=='/'){
-        printf("%d",a/b);
-    }
-    else{
+    switch(oper){
+        case'+':
+        printf("%d" ,num1+num2);
+        break;
+
+        case'-':
+        printf("%d" ,num1-num2);
+        break;
+
+        case'*':
+        printf("%d" ,num1*num2);
+        break;
+
+        case'/':
+        if(num2 != 0)
+        printf("%d",num1/num2);
+        else 
+        printf("error");
+        break;
+        default:
         printf("error");
     }
     return 0;
+        
 }
