@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void defalteBallons(int air[], int n ) {
+void defalteBalloons(int air[], int n ) {
     while(1){
         int minAir = 10001;
         int count = 0;
