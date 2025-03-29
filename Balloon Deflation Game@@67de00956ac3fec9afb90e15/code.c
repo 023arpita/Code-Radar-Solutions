@@ -22,14 +22,3 @@ void defalteBalloons(int air[], int n ) {
 
     }
 }
-int main(){
-    int n;
-    scanf("%d",&n);
-
-    int air[n];
-    for(int i = 0 ; i < n ; i++){
-        scanf("%d", &air[i]);
-    } 
-    defalteBalloons(air,n);
-    return 0;
-}
